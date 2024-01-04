@@ -8,9 +8,8 @@
       <change beforePath="$PROJECT_DIR$/../angular-course" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-course" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/course-card/course-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/course-card/course-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/course-card/course-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/course-card/course-card.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/db-data.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +90,22 @@
       <workItem from="1704296364162" duration="7256000" />
       <workItem from="1704395736717" duration="707000" />
       <workItem from="1704398039658" duration="480000" />
-      <workItem from="1704398526712" duration="1558000" />
+      <workItem from="1704398526712" duration="3495000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
