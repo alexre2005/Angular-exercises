@@ -14,8 +14,11 @@ export class CourseCardComponent {
   @Input()
   course:Course;
 
-  @Input({required:true})
-  index:number;
+ @Input({required:true})
+   index:number;
+
+  @Input()
+  cardIndex: number;
 
   @Output()
   courseSelected = new EventEmitter<Course>() ;
@@ -31,4 +34,16 @@ export class CourseCardComponent {
     this.courseSelected.emit(this.course) ;
   }
 
+  cardClasses() {
+      if (this.course.category == 'BEGINNER') {
+        return 'beginner' ;
+      }
+    //    'beginner':this.course.category == 'BEGINNER'
+  }
+  cardStyles() {
+    return {
+   //  {'text-decoration': 'underline'}
+    'background-image': 'url(' + this.course.iconUrl + ')',
+   };
+ }
 }
